@@ -1,5 +1,5 @@
 # MLP and CNN comparison for CIFAR-10 dataset
-
+![CIFAR-10](/data/The-Differences-in-Architecture-between-a-Simple-MLP-and-a-CNN.ppm)
 ## Introduction
 This project is a comparison between MLP and CNN for the CIFAR-10 dataset. The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images. The dataset is divided into five training batches and one test batch, each with 10000 images. The test batch contains exactly 1000 randomly-selected images from each class. The training batches contain the remaining images in random order, but some training batches may contain more images from one class than another. Between them, the training batches contain exactly 5000 images from each class.
 
@@ -36,4 +36,4 @@ The CNN model outperformed the MLP model on the CIFAR-10 dataset. This is becaus
 - [Keras documentation](https://keras.io/)
 - [Tensorflow documentation](https://www.tensorflow.org/)
 - [Deep Learning with Python by Francois Chollet](https://www.manning.com/books/deep-learning-with-python)
-```
+- [Deep Learning-Based Model Architecture for Time-Frequency Images Analysis](https://www.researchgate.net/publication/330078437_Deep_Learning-Based_Model_Architecture_for_Time-Frequency_Images_Analysis)
